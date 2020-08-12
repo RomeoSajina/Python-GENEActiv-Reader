@@ -6,10 +6,14 @@ Simple package for loading .bin files from GENEActiv accelerometers
 
 ## Get Started
 
+**Installation:**
 ```bash
 pip install git+https://github.com/RomeoSajina/Python-GENEActiv-Reader.git
 ```
 
+<br>
+
+**Usage:**
 ```python
 from geneactiv_reader import GENEActiv
 
@@ -30,6 +34,18 @@ df.plot()
 ```
 
 <br>
+
+
+## Example of .bin file
+For full file check out [left_ankle_example.bin](./example/left_ankle_example.bin)
+
+<br>
+
+And after loading .bin file, calculated SVM can be plotted
+![](./example/left_ankle_example.png)
+
+<br>
+
 
 ## More information
 
