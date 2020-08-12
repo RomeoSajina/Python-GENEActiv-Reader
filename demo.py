@@ -1,4 +1,4 @@
-from gene_activ import GENEActiv
+from geneactiv_reader import GENEActiv
 
 if __name__ == "__main__":
 
@@ -6,5 +6,5 @@ if __name__ == "__main__":
 
     print("Raw data: ", ga.raw)
     print("Processed data: ", ga.data)
-    
+
     ga.aggregate("1s").plot()
